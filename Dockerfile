@@ -1,5 +1,5 @@
-#FROM lscr.io/linuxserver/code-server:latest
-FROM lscr.io/linuxserver/code-server:4.101.2
+FROM lscr.io/linuxserver/code-server:latest
+#FROM lscr.io/linuxserver/code-server:4.101.2
 
 RUN curl -sL https://deb.nodesource.com/setup_22.x | sudo -E bash - && \
     sudo apt-get install -y gcc g++ make iputils-ping httpie nodejs && \
